@@ -1,2 +1,2 @@
 # cvars
-Generate a sequences of correlated Bernoulli variables.
+Generate sequences of correlated Bernoulli variables.

@@ -25,7 +25,7 @@ module cvars
         qp = 1 - p + delta*p
         qm = 1 - p - delta*(1-p)
         seq = 1
-        if (z <= u) then
+        if (z .LT. u) then
             seq(1) = 1
             j = p * qm
             z = z + j
@@ -35,8 +35,8 @@ module cvars
             z = z - j
         end if
         k = 2
-        do while (k <= n)
-            if (z <= u) then
+        do while (k .LT. n)
+            if (z .LT. u) then
                 seq(k) = 1
                 j = j * pp
                 z = z + j

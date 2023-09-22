@@ -1,2 +1,2 @@
 # cvars
-Generate sequences of correlated Bernoulli variables.
+Sequences of correlated Bernoulli random variables in FORTRAN.
